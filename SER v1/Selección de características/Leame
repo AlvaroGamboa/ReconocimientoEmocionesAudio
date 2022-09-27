@@ -1,0 +1,1 @@
+Notebook con el codigo para la seleccion de las caracteristicas que tienen mayor peso para el entrenamiento del modelo de machine learning Random Forest , usando la libreria from sklearn.feature_selection import RFECV
