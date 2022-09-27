@@ -1,1 +1,7 @@
-El siguiente bot de telegram simula a un robot social el cual cuenta con la capacidad de procesar coom imput un audio de voz y da como repuesta la clasificacion de la emocion
+El siguiente bot de telegram simula a un robot social el cual cuenta con la capacidad de procesar coom imput un audio de voz y da como repuesta la clasificacion de la emocion.
+Para su funcionamiento en google colab debes realizar lo siguiente:
+1. crear la capertas "input_audio" lugar en donde el bot de telegram almacena los audios que grabas desde tu movil
+2. crear la caperta "modelos" lugar en donde colocas los modelos de machine learning y normalizacion, ademas de actualizar el nombre de los modelos que va utilizar el bot en el codigo
+3. Colocar el token de tu bot de telegram creado, esta actividad lo puedes realizar desde el mismo telegram utlizando el bot llamado "BotFather.
+
+El funcionamiento del bot consiste en que utlizando la opcion de telegram para grabar audio en el chat, uno envie un audio de voz y este al recibir el input de como repuesta la emocion clasificada.
